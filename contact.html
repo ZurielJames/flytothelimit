@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+	<head>
+	  <title>Contact | Fly To The Limit</title>
+	  <meta charset="utf-8">
+	  <meta name="description" content="A sentence or two about the contents of this document. Typically up to 160 characters long.">
+
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <link rel="stylesheet" type="text/css" href="css/index_.css">
+	  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Oleo+Script:700' rel='stylesheet' type='text/css'>
+	</head>
+<body>
+<div id="container">
+	<div id="main-header">
+		<header>
+			<nav class="menu">
+				<div class="clearfix" id="logo">
+					<img src="image/logo.png" height="120" width="120" alt="fly to the limit paper plane logo">
+				</div>
+				<ul id="homenavall">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="tours.html">Tours & Prices</a></li>
+				<li class="book-nav"><a href="book.html">Book</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>	
+				
+		</header>
+			<div class="headerimg">
+	    		<img src="image/pagesimg.png" alt="picture of heading">  
+	    	</div>
+	</div>
+			<div id="contact-head">
+		        <h1>CONTACT US</h1>
+		    </div> 
+	<main class="contactmain">
+	<form method="POST" action="http://brettt.yoobee.net.nz/formtest/" id="contact-form" novalidate>
+
+		<div id="head">
+			<h4>CONTACT</h4>
+			<p>We are here to answer any questions you may have. Reach out to us and we'll respond as soon as we can.</p>
+		</div>
+
+		<div id="contact_name">
+			<div class="contactname">
+				<label for="name">Name</label><br>
+				<input type="text" placeholder="name" id="name" name="name" required class="fv-minlength-2 hello">
+				<div id="name-error" class="danger_"></div>
+		    </div>
+		</div>
+
+		<div class="form-group_contact">
+		      <label for="contactemail">Email</label><br>
+		      <input type="email" placeholder="Enter Email" id="contactemail" name="Email" required>
+		      <div id="contactemail-error" class="danger_"></div>
+		</div>
+
+		<div class="form-group_contactmsg">
+	  	    <label for="contactmessage">Message </label><br>
+	  		<textarea rows="15" cols="130" id="contactmessage" name="message" required class="fv-minlength-10"></textarea>
+	  		<div id="contactmessage-error" class="danger_"></div>
+		</div>
+
+    	<div class="contactsend">
+      		<input type="submit" value="Send">
+    	</div> 
+
+    </form>
+    </main>
+
+	<script src="js/fttl_web.js"></script>
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+
+	var contactForm = document.querySelector("#contact-form");
+
+	addFormValidation(contactForm);
+
+	});
+	</script>
+
+	<footer>
+		<div class="footerwhole">
+			<div class="footermenu">
+
+				<h4>Navigate</h4>	
+				<ul>
+				
+
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="tours.html">Tours & Prices</a></li>
+				<li><a href="book.html">Book</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="sitemap.html">Sitemap</a>
+				</ul>
+				<p>Copyright &copy; 2015 Fly To The Limit Inc.</p>
+			</div>
+			
+			<div class="footerinfo">
+				<h4>FLY TO THE LIMIT</h4>
+				<p>54 Taranaki Heights Queenstown<br>
+					New Zealand 5432</p>
+				<p>Phone: +64 21 987 12389</p>
+				<p>Email: flytothelimit@fly.com</p>
+				<p class="backtotop">Back to <a href="book.html">Top</a></p>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

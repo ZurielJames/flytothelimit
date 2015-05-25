@@ -1,0 +1,770 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+#homepicture img{
+	margin: 0 auto;
+	margin-top: -150px;
+	
+}
+#mainheader{
+	position: relative;
+}
+
+#homepicture img{
+	width: 100%;
+	height: 1000px;
+}
+
+.headerimg img{
+	width: 100%;
+	height: 180px;
+}
+
+#logo{
+	float: left;
+	margin-right: 190px;
+}
+
+header{
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 90px;
+
+}
+
+
+#home-h1{
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
+	width:900px;
+	margin: 0 auto;
+	margin-top:300px;
+	padding-bottom: 50%;
+	font-size: 80px;
+	margin-left: 140px;
+
+}
+
+.menu{
+	position:relative;
+	padding-top: 20px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.menu li{
+	
+	padding:10px;
+	margin-top: 50px;
+	margin: 10px;
+	font-size:15pt;
+	display:inline-block;
+
+}
+
+.menu ul{
+	margin-left:590px;
+	margin-bottom:40px;
+	margin-top: 100px;
+	width:1000px;
+	margin: 0 auto;
+	
+}
+
+#homenav {
+	padding-left: 400px;
+}
+
+#homenav li a{
+	color: white;
+
+}
+
+#homenav a:hover{
+	color: #4B77BE;
+
+}
+
+#homenavall{
+	padding-left: 400px;
+}
+
+#homenavall li a{
+	color: #185893;
+}
+
+#homenavall a:hover{
+	color: #ECECEC;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:#185893;
+
+}
+
+.menu a:hover{
+	color: #ECECEC;
+}
+
+iframe{
+	padding: 3px;
+	border: none;
+}
+
+#gallery {
+	margin-top: 50%;
+ 	margin:0 auto;
+ 	width: 920px;
+ 	height: 1048px;
+ 	clear: both;
+ 	
+}
+
+.gallery{
+	color: #185893;
+ 	width: 900px;
+ 	padding-top: 70px;
+ 	padding-bottom: 50px;
+
+}
+
+ #gallery img{
+ 	padding: 3.2px;
+ 	
+ }
+
+.normal:hover{
+	transform:scale(1.2);
+}
+
+.normal{
+	transition: all 0.2s ease;
+}
+
+footer{
+	background-color: #ECECEC;
+	margin-top: 170px;
+	margin: 0 auto;
+	width: 100%;
+	height: 280px;
+}
+
+.footerwhole{
+	width: 960px;
+	height: 280px;
+	margin:0 auto;
+}
+
+.footermenu{
+ 	float: left;
+ 	width: 530px;
+ 	height: 280px;
+}
+
+.footermenu a:hover{
+ 	color: #ABB7B7;
+ }
+
+ .footermenu ul{
+ 	margin-bottom: 30px;
+ 	padding-left: 20px;
+ }
+
+
+.footerinfo{
+	margin-bottom: 60px;
+	float: right;
+	width: 200px;
+	height: 280px;
+	padding-left: 30px;
+
+}
+
+.footerinfo p{
+ 	font-size: 14px;
+ 	color: #185893;
+
+ }
+
+ .copyright{
+ 	float: left;
+ }
+
+ .footermenu h4{
+ 	margin-bottom: 17px;
+ }
+
+div ul li {
+	list-style: none;
+	padding-top: 2px;
+
+}
+
+div li a{
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	color:#185893;
+
+}
+
+.backtotop a{
+	color: #34495E;
+}
+
+.backtotop a:hover{
+	color: #ABB7B7;
+}
+
+/*ABOUT........................................................ */
+
+#headerimg img{
+	margin: 0 auto;
+	position: relative;
+}
+
+
+#about-head{
+	width: 960px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -11.5em;
+	color: white;
+	margin-bottom: 6em;
+	
+}
+
+#about-head h1{
+	width: 500px;
+	height: 60px;
+	padding-left: 300px;
+	position: relative;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 70px;
+}
+
+/*OWNER*/
+
+#owner{
+	width: 900px;
+	margin: 0 auto;
+	height: 320px;
+	padding-top: 3.5%;
+
+}
+
+.theowner img{
+	padding-right: 4.6%;
+	float: left;
+
+}
+
+.theownerinfo{
+	padding-right: 17%;
+	width: 900px;
+
+}
+
+.theownerinfo h3{
+	color: #185893;
+}
+
+/*OWNER*/
+
+/*FINN McCOOL*/
+
+#pilot {
+	width: 900px;
+	margin: 0 auto;
+	height: 320px;
+	padding-top: 3.5%;
+
+}
+
+.thepilotfinn img{
+	padding-top: 15%;
+	float: right;
+	margin-top: -14.5%;
+	padding-left: 4.6%;
+
+}
+
+.finninfo{
+	padding-right: 19%;
+	width: 400px;
+	height: 320px;
+}
+
+.finninfo h3{
+	color: #185893;
+}
+
+/*FINN McCOOL*/
+
+/*WENDY GILHALLEN*/
+
+#pilotwendy{
+	width: 900px;
+	margin: 0 auto;
+	height: 320px;
+	padding-top: 3.5%;
+
+}
+
+.thepilotwendy img{
+	padding-right: 4.6%;
+	float: left;
+
+}
+
+.wendyinfo{
+	padding-right: 17%;
+	width: 900px;
+
+}
+
+/*WENDY GILHALLEN*/
+
+/*JOHN AND HANS*/
+
+#pilotjohnandhans {
+	width: 900px;
+	margin: 0 auto;
+	height: 415px;
+	padding-top: 3.5%;
+
+}
+
+.thepilots img{
+	padding-top: 15%;
+	float: right;
+	margin-top: -14.5%;
+	padding-left: 4.6%;
+
+}
+
+.pilotsinfo{
+	padding-right: 19%;
+	width: 400px;
+	height: 515px;
+	
+}
+
+/*AIRCRAFTS*/
+
+#aircrafts{
+	margin-bottom: 100px;
+
+}
+
+.h3aircrafts{
+	
+	color: #185893;
+
+}
+
+#aircrafts1,
+#aircrafts2{
+	width: 960px;
+	height: 400px;
+	margin: 0 auto;
+
+}
+
+#aircrafts2{
+	margin-top: 8px;
+}
+
+/*TOURS & PRICES*/
+
+#tours-head{
+	width: 960px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -11.5em;
+	color: white;
+	margin-bottom: 5em;
+	
+}
+
+#tours-head h1{
+	width: 600px;
+	height: 60px;
+	padding-left: 200px;
+	position: relative;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 70px;
+}
+#fixedwing{
+	width: 900px;
+	margin: 0 auto;
+	height: 320px;
+	padding-top: 3.5%;
+
+}
+
+
+/*FIXED WING........................*/
+
+#fixedwing{
+	width: 960px;
+	margin: 0 auto;
+	height: 520px;
+	padding-top: 90px;
+}
+
+.fixedinfo,
+.helicopterinfo,
+.gliderinfo{
+	width: 320px;
+	height: 520px;
+	float: left;
+	margin-right: 30px;
+}
+
+.fixedpics,
+.helicopterpics,
+.gliderpics{
+	width: 570px;
+	height: 520px;
+	float: right;
+	
+}
+/*HELICOPTER.........................*/
+
+#helicopter{
+	width: 960px;
+	margin: 0 auto;
+	height: 520px;
+	
+}
+
+.helicopterpics{
+	width: 570px;
+	height: 520px;
+	float: right;
+}
+/*GLIDER FLIGHTS........................*/
+
+#glider{
+	width: 960px;
+	margin: 0 auto;
+	height: 520px;
+}
+
+.fixedinfo a,
+.helicopterinfo a,
+.gliderinfo a{
+	text-decoration: none;
+	color:#185893;
+}
+
+/*BOOKING PAGE............................*/
+
+#book-head{
+	width: 960px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -11.5em;
+	color: white;
+	
+	margin-bottom: 7em;
+	
+	/*margin-right: 0px;*/
+}
+
+#book-head h1{
+	width: 600px;
+	height: 60px;
+	padding-left: 270px;
+	position: relative;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 70px;
+	/*margin-top: 100px;*/
+}
+
+/*#contact-form h3{
+	margin-left: 270px;
+	margin-bottom: 3%;
+
+}
+*/
+/*form{
+	background-color: lightgrey;
+
+}*/
+
+/*.bookmain{
+	margin-left: 250px;
+}*/
+#contact-form{
+	width: 960px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+input[type=date],
+input[type=number],
+input[type=time]{
+	outline: none;
+	font-family: arial;
+	padding:5px;	
+	width: 300px;
+
+}
+
+input#name,
+input#contact,
+input#email,
+input#contactemail{
+	width: 300px;
+	height: 20px;
+	padding: 8px;
+
+}
+
+.nameoftour{
+	width: 960px;
+	height: 35px;
+	margin-bottom: 20px;
+}
+
+.nameoftour select{
+	margin-left: 49px;
+}
+
+#proposed{
+	margin-bottom: 20px;
+	width: 960px;
+	height: 35px;
+}
+
+.proposedinput{
+	float: left;
+	width: 400px;
+	height: 35px;
+}
+
+.proposed_date{
+	float: left;
+	width: 150px;
+	height:35px;
+}
+
+.proposed_dateinput{
+	float: left;
+	width:90px;
+}
+
+.proposed_monthinput{
+	float: left;
+	width: 160px;
+}
+
+#starttime{
+ 	margin-bottom: 20px;
+ 	width: 960px;
+ 	height: 35px;
+ 	float: left;
+
+}
+.starttime{
+	/*margin-right: 78px;*/
+	width: 150px;
+	float: left;
+}
+
+#starthour select{
+	float: left;
+}
+
+.starthourinput{
+	float: left;
+	width: 153px;
+
+}
+
+.startminutes_input{
+	float: left;
+	width: 120px;
+}
+
+.passenger{
+	width: 150px;
+	height: 35px;
+	float: left;
+}
+
+
+.passengerinput{
+	width: 810px;
+	height: 35px;
+}
+
+.form-group{
+	/*margin-left: 270px;*/
+	margin-bottom: 20px;
+	width: 960px;
+	height: 35px;
+}
+.form-group label {
+	display: inline-block;
+	width:150px;
+	float: left;
+}
+
+.message{
+	margin-top: 20px;
+	width: 960px;
+	height: 32px;
+	float: left;
+}
+
+#contact-form .bookmsg{
+	float: left;
+	margin-right: 90px;
+}
+
+#contact-form .booksend{
+	margin-left: 585px;
+	width: 960px;
+	height: 35px;
+	float: left;
+	margin-top: 200px;
+	/*padding-top: 20px;
+	padding-bottom: 100px;*/
+
+}
+
+.bookmsg label{
+	padding-top: 5px;
+
+}
+
+.danger {
+	background-color: #fcc;
+	color: #c00;
+	font-size: 0.8em;
+	padding: 0 .5em;
+	width: 215px;
+	margin-right: 165px;
+	margin-left: 150px;
+	
+}
+
+/*CONTACT PAGE....................................*/
+
+#contact-head{
+	width: 960px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -11.5em;
+	color: white;
+	
+	margin-bottom: 7em;
+	
+	/*margin-right: 0px;*/
+}
+
+#contact-head h1{
+	width: 600px;
+	height: 60px;
+	padding-left: 270px;
+	position: relative;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 70px;
+	/*margin-top: 100px;*/
+}
+
+.danger_{
+	background-color: #fcc;
+	color: #c00;
+	font-size: 0.8em;
+	padding: 0 .5em;
+	width: 215px;
+	/*margin-left: 20px;*/
+}
+
+.contactsend{
+	margin-left: 93%;
+	width: 960px;
+	height: 35px;
+}
+
+.form-group_contact{
+	padding-top: 20px;
+}
+
+.form-group_contactmsg{
+	padding-top: 20px;
+}
+
+/*SITEMAP....................................................*/
+
+#site-map{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#sitemap-head{
+	width: 960px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -11.5em;
+	color: white;
+	
+	margin-bottom: 7em;
+	
+	/*margin-right: 0px;*/
+}
+
+#sitemap-head h1{
+	width: 600px;
+	height: 60px;
+	padding-left: 320px;
+	position: relative;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 70px;
+	/*margin-top: 100px;*/
+}
+
+main a{
+	color:#185893;
+	text-decoration: none;
+}
+
+main a:hover{
+	color: #ECECEC;
+}
+
+/*PRINT.........................................................*/
+@media print{
+	nav,
+	iframe,
+	footer{
+		display: none;
+
+	}
+}
+
+
+
+
+
+
